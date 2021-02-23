@@ -1,0 +1,42 @@
+/* vars color start */
+
+$accent: #C5AC2D;
+$text-color: #1B1818;
+$bg-color: #332208;
+
+/* vars color end */
+
+/* fonts
+font-family: 'Fira Sans', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+ */
+
+body {
+    color: $text-color;
+    font-size: 16px;
+    line-height: 19px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.application-btn {
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #fefefe;
+    background: $accent;
+    padding: 16px 19px;
+    transition: all .5s;
+    border: 1px solid transparent;
+    display: inline-block;
+    &:hover {
+        color: $accent;
+        background: transparent;
+        border: 1px solid $accent;
+    }
+}
